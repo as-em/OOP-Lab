@@ -23,10 +23,11 @@ int main()
     {
 
         bitset<8> bits1(num);
+        cout << (bits1.to_ullong())<<endl;
         bits1[0] = 1;
         // int newb = bits;
 
-        cout << (bits1.to_ullong());
+        cout << (bits1.to_ullong())<<endl;
     }
     return 0;
 }
