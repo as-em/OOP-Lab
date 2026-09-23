@@ -29,9 +29,9 @@ int main()
 
     int h, w;
 
-    cout << " Enter  Height for Triangle : ";
+    cout << " Enter  Height for Rectangle : ";
     cin >> h;
-    cout << " Enter  width for Triangle : ";
+    cout << " Enter  width for Rectangle : ";
     cin >> w;
 
     area(h, w);
@@ -45,16 +45,16 @@ int main()
 
     int u, b;
 
-    cout << " Enter  Height for Rectangle : ";
+    cout << " Enter  Height for Triangle : ";
     cin >> u;
-    cout << " Enter  base for Rectangle : ";
+    cout << " Enter  base for Triangle : ";
     cin >> b;
 
     area(0.5, u, b);
 
-    int r;
+    float r;
 
-    cout << " Enter  radius for circle : ";
+    cout << " Enter  radius for circle (enter in float): ";
     cin >> r;
 
     area(r);
