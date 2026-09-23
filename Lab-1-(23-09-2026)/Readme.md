@@ -5,7 +5,7 @@
    4. Find n th fibo number using recur func
    5. calculate factorial of n with recur func
   
-2. Function Overloading
-    6. Write a c++ program & overload area () function. The area ()
+2. Function Overloading 
+    1. Write a c++ program & overload area () function. The area ()
        func will calculate area of triangle ,rectangle , circle , square etc .
    
