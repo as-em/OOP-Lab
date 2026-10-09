@@ -2,6 +2,8 @@
 
 using namespace std ;
 
+// Write a c++ program implementing a friend function that will compare 3 different private variable from 3 different classes
+
 class A;
 class B;
 class C;
