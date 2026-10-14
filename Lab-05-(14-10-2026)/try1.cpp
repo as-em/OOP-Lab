@@ -42,7 +42,10 @@ Money operator-(Money &m1, Money &m2)
     remain.taka = m1.taka - m2.taka;
     remain.poysa = m1.poysa - m2.poysa;
 
-    if (remain.poysa < 0)
+    if (remain.taka <= 0)
+    {
+    }
+    else if (remain.poysa < 0)
     {
         remain.taka--;
         remain.poysa = 100 + remain.poysa;
@@ -53,8 +56,8 @@ Money operator-(Money &m1, Money &m2)
 
 int main()
 {
-    Money m1(50, 50);
-    Money m2(40, 70);
+    Money m1(10, 50);
+    Money m2(9, 70);
 
     Money m3 = m1 + m2;
     Money m4 = m1 - m2;
